@@ -16,7 +16,7 @@ class Myapp extends StatelessWidget {
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage('images/alex.JPEG'),
+                backgroundImage: AssetImage('images/captain_rex.jpg'),
               ),
               SizedBox(
                 height: 10.0,
@@ -26,7 +26,7 @@ class Myapp extends StatelessWidget {
                 ),
               ),
               Text(
-                'Alex Sze',
+                'Captain Rex',
                 style: TextStyle(
                   fontFamily: 'Oxanium',
                   fontSize: 40.0,
@@ -42,7 +42,7 @@ class Myapp extends StatelessWidget {
                 ),
               ),
               Text(
-                'Developer',
+                'ARC Trooper',
                 style: TextStyle(
                   fontFamily: 'Oxanium',
                   fontSize: 20.0,
@@ -60,7 +60,7 @@ class Myapp extends StatelessWidget {
                     color: Colors.teal,
                   ),
                   title: Text(
-                    'alexyysze@gmail.com',
+                    'captainrex@gmail.com',
                     style: TextStyle(
                         fontFamily: 'Oxanium',
                         color: Colors.teal[900],
@@ -99,15 +99,15 @@ class Myapp extends StatelessWidget {
                 padding: const EdgeInsets.only(left: 10.0, right: 10.0),
                 child: ListTile(
                   leading: Icon(Icons.computer),
-                  title: Text('Hackathon'),
+                  title: Text('Battle of Geonosis'),
                 ),
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 10.0, right: 10.0),
                 child: ListTile(
                   leading: Icon(Icons.work),
-                  title: Text('Intern'),
-                  subtitle: Text('2019 summer'),
+                  title: Text('Battle of Murkhana'),
+                  subtitle: Text('22 BBY'),
                 ),
               ),
             ],
