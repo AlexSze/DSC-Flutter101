@@ -62,7 +62,7 @@ class Myapp extends StatelessWidget {
                   title: Text(
                     'alexyysze@gmail.com',
                     style: TextStyle(
-                        fontFamily: 'SourceSerifPro',
+                        fontFamily: 'Oxanium',
                         color: Colors.teal[900],
                         fontSize: 20.0),
                   ),
@@ -79,7 +79,7 @@ class Myapp extends StatelessWidget {
                   title: Text(
                     '+852 12345678',
                     style: TextStyle(
-                        fontFamily: 'SourceSerifPro',
+                        fontFamily: 'Oxanium',
                         color: Colors.teal[900],
                         fontSize: 20.0),
                   ),
